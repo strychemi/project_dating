@@ -12,8 +12,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "binding_of_caller"
 
 group :development, :test do
-  gem 'byebug'
-  gem 'jazz_hands'
+  gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
+  gem 'pry-byebug'
 end
 
 group :development do
